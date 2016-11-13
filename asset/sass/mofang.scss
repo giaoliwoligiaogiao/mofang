@@ -1,0 +1,125 @@
+@import "compass/reset";
+
+html,body{margin: 0;padding: 0; width:100%;height: 100%;background-color: #000;
+
+}
+.biggest{padding-top:100px ;width: 100%;transform-style: preserve-3d;
+
+ -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(800px) rotateX(-10deg);
+    -moz-transform: perspective(800px) rotateX(-30deg)rotateY(-50deg);
+    -ms-transform: perspective(800px) rotateX(-30deg)rotateY(-50deg);
+    -o-transform: perspective(800px) rotateX(-30deg)rotateY(-50deg);
+    transform: perspective(800px) rotateX(-30deg) rotateY(-50deg);
+}
+.mubu{width: 360px;height: 360px; position: fixed;margin: 0 auto;
+top: -15px;left: -15px;
+transform: translateZ(300px);
+border: 5px solid sandybrown;}
+
+.include{width: 330px;height: 330px; position: relative;margin: 0 auto;transform-style: preserve-3d;
+transform: rotateX(0deg) rotateY(0deg) translateX( 0px) translateY(0px);
+}
+.litbox{width: 160px;height: 160px;box-sizing:border-box;
+    div{position: absolute;border: 5px dashed  darkgray;}
+    div:nth-of-type(1){transform:translateZ(160px);transform-origin: top;}
+    div:nth-of-type(2){transform:rotateX(90deg);transform-origin: top;}
+     div:nth-of-type(3){transform:rotateY(-90deg);transform-origin:left 100% ;}
+        
+}
+.white{background-color: #fff;}
+.black{background-color:yellow;}
+.orange{background-color:orange;}
+.green{background-color: greenyellow;}
+.red{background-color: darkmagenta;}
+.blue{background-color: lightskyblue;}
+
+
+//@-webkit-keyframes turnleft{
+//  0% {transform:rotateY(0deg);transform-origin:right 100%;}
+//  100% {transform:rotateY(90deg);transform-origin:right 100%;}
+//}
+//@-o-keyframes turnleft{
+//  0% {transform:rotateY(0deg);transform-origin:right 100%;}
+//  100% {transform:rotateY(90deg);transform-origin:right 100%;}
+//}
+//@-moz-keyframes turnleft{
+//  0% {transform:rotateY(0deg);transform-origin:right 100%;}
+//  100% {transform:rotateY(90deg);transform-origin:right 100%;}
+//}
+//@keyframes turnleft{
+//  0% {transform:rotateY(0deg);transform-origin:right 100%;}
+//  100% {transform:rotateY(90deg);transform-origin:right 100%;}
+//}
+//
+//@-webkit-keyframes turnright{
+//  0% {transform:rotateY(0deg);}
+//  100% {transform:rotateY(-90deg);}
+//}
+//@-o-keyframes turnright{
+//  0% {transform:rotateY(0deg);}
+//  100% {transform:rotateY(-90deg);}
+//}
+//@-moz-keyframes turnright{
+//  0% {transform:rotateY(0deg);}
+//  100% {transform:rotateY(-90deg);}
+//}
+//@keyframes turnright{
+//  0% {transform:rotateY(0deg);}
+//  100% {transform:rotateY(-90deg);}
+//}
+
+.box1{
+transition: all  0.5s;transform: rotateX(0deg) rotateY(0deg);
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+}
+
+.box2{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+    transform: rotateY(90deg);
+
+}
+.box3{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+    transform: rotateX(0deg) rotateY(180deg);
+
+}
+
+.box4{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+     transform: rotateX(0deg) rotateY(270deg);
+
+}
+.box5{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+     transform: rotateX(180deg) rotateY(270deg);
+
+}
+
+.box6{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+     transform: rotateX(180deg) rotateY(180deg);
+
+}
+
+
+
+
+.box7{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+     transform: rotateX(180deg) rotateY(90deg);
+
+}
+.box8{transition: all  0.5s;
+    position: absolute; top: 0;left: 0;transform-style: preserve-3d;transform-origin:right bottom;
+     transform: rotateX(180deg) rotateY(0deg);
+
+}
+
+
+
+      
+

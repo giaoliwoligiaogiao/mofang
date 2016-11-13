@@ -1,0 +1,256 @@
+/* line 5, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, D:/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../asset/sass/mofang.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+/* line 6, ../asset/sass/mofang.scss */
+.biggest {
+  padding-top: 100px;
+  width: 100%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: perspective(800px) rotateX(-10deg);
+  -moz-transform: perspective(800px) rotateX(-30deg) rotateY(-50deg);
+  -ms-transform: perspective(800px) rotateX(-30deg) rotateY(-50deg);
+  -o-transform: perspective(800px) rotateX(-30deg) rotateY(-50deg);
+  transform: perspective(800px) rotateX(-30deg) rotateY(-50deg);
+}
+
+/* line 18, ../asset/sass/mofang.scss */
+.mubu {
+  width: 360px;
+  height: 360px;
+  position: fixed;
+  margin: 0 auto;
+  top: -15px;
+  left: -15px;
+  transform: translateZ(300px);
+  border: 5px solid sandybrown;
+}
+
+/* line 23, ../asset/sass/mofang.scss */
+.include {
+  width: 330px;
+  height: 330px;
+  position: relative;
+  margin: 0 auto;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg) translateX(0px) translateY(0px);
+}
+
+/* line 26, ../asset/sass/mofang.scss */
+.litbox {
+  width: 160px;
+  height: 160px;
+  box-sizing: border-box;
+}
+/* line 27, ../asset/sass/mofang.scss */
+.litbox div {
+  position: absolute;
+  border: 5px dashed  darkgray;
+}
+/* line 28, ../asset/sass/mofang.scss */
+.litbox div:nth-of-type(1) {
+  transform: translateZ(160px);
+  transform-origin: top;
+}
+/* line 29, ../asset/sass/mofang.scss */
+.litbox div:nth-of-type(2) {
+  transform: rotateX(90deg);
+  transform-origin: top;
+}
+/* line 30, ../asset/sass/mofang.scss */
+.litbox div:nth-of-type(3) {
+  transform: rotateY(-90deg);
+  transform-origin: left 100%;
+}
+
+/* line 33, ../asset/sass/mofang.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 34, ../asset/sass/mofang.scss */
+.black {
+  background-color: yellow;
+}
+
+/* line 35, ../asset/sass/mofang.scss */
+.orange {
+  background-color: orange;
+}
+
+/* line 36, ../asset/sass/mofang.scss */
+.green {
+  background-color: greenyellow;
+}
+
+/* line 37, ../asset/sass/mofang.scss */
+.red {
+  background-color: darkmagenta;
+}
+
+/* line 38, ../asset/sass/mofang.scss */
+.blue {
+  background-color: lightskyblue;
+}
+
+/* line 75, ../asset/sass/mofang.scss */
+.box1 {
+  transition: all  0.5s;
+  transform: rotateX(0deg) rotateY(0deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+}
+
+/* line 80, ../asset/sass/mofang.scss */
+.box2 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateY(90deg);
+}
+
+/* line 85, ../asset/sass/mofang.scss */
+.box3 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateX(0deg) rotateY(180deg);
+}
+
+/* line 91, ../asset/sass/mofang.scss */
+.box4 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateX(0deg) rotateY(270deg);
+}
+
+/* line 96, ../asset/sass/mofang.scss */
+.box5 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateX(180deg) rotateY(270deg);
+}
+
+/* line 102, ../asset/sass/mofang.scss */
+.box6 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateX(180deg) rotateY(180deg);
+}
+
+/* line 111, ../asset/sass/mofang.scss */
+.box7 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateX(180deg) rotateY(90deg);
+}
+
+/* line 116, ../asset/sass/mofang.scss */
+.box8 {
+  transition: all  0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: right bottom;
+  transform: rotateX(180deg) rotateY(0deg);
+}
